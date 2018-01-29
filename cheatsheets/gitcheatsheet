@@ -1,0 +1,42 @@
+:: BRANCHING AND MERGING ::
+ 
+
+git init :: makes a repository a git repository
+
+git branch :: displays branches
+
+git branch (argument) :: creates branch
+
+git checkout (argument) :: switches between branches
+
+git checkout -b (argument) :: creates a new branch and moves you to it
+
+git merge (argument) :: copy work from one branch into another (merges the argument branch into the branch you are in)
+
+
+
+
+:: REMOTES ::
+
+git remote :: displays all current remotes (origin is the default name given when a repository is cloned)
+
+git remote -v :: gives more information about remotes
+
+git clone :: make a local copy of a remote repository
+
+Fork (can't be done from the command line) :: makes a remote copy of a remote repository
+
+*fork a remote repository, and then clone it to obtain your own copy*
+
+git remote add upstream (URL of original remote repository on GitHub) :: makes you clone point to the original repository,
+	rather than to your forked version of the repository
+
+git push :: send changes to a remote (origin)
+
+git fetch :: get changes from a remote (almost never use)
+
+git pull :: fetch and merge changes from a remote
+
+
+
+Ctrl + D will exit Python code in the terminal once you've opened it by entering Python
