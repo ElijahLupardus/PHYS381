@@ -46,3 +46,6 @@ homework branch changes
 
 some more changes for merging experimentation
 
+This is how you sync your repository:
+
+git pull upstream master -> git push
